@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projekt</title>
+    <link rel="stylesheet" href="https://js.arcgis.com/4.22/esri/themes/light/main.css">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;1,300;1,400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://js.arcgis.com/4.22/"></script>
+    <script src="script.js" defer></script>
+    
+</head>
+<body>
+    <h1 id="tytul">Wulkany Kaskadowe</h1>
+
+    <img src="https://cdn.getyourguide.com/img/location/5c88dca2106e2.jpeg/88.jpg" alt=" Mount St. Helens" id="grafika">
+    <div id="linki">
+    <button id="btn1"><img src="https://upload.wikimedia.org/wikipedia/commons/e/ef/Mount_Hood_reflected_in_Mirror_Lake%2C_Oregon.jpg" style="border: 0" alt="Mt. Hood" id="drugi"></button>
+    <button id="btn2"><img src="https://media-cdn.tripadvisor.com/media/photo-s/0c/99/c1/f0/panorama-de-la-tete-du.jpg" style="border: 0" alt="Medicine Lake" id="drugi"></button>
+    <button id="btn3"><img src="https://upload.wikimedia.org/wikipedia/commons/a/a8/Mt._Lassen_Volcanic_Park_Kathy_Calm_139724420.jpg" style="border: 0" alt="Lassen Peak" id="drugi"></button>
+    <button id="btn4"><img src="https://tzmedia.b-cdn.net/media/images/us/place/420/f0c9028dd8a5c907f29d617bcd44af82.jpg?1582270511" style="border: 0" alt="Glacier Peak" id="drugi"></button>
+    <button id="btn5"><img src="https://upload.wikimedia.org/wikipedia/commons/8/8b/Mt._Jefferson_from_Three_Fingered_Jack.JPG" style="border: 0" alt="Mt. Jefferson" id="drugi"></button>
+    <button id="btn6"><img src="https://www.visitbend.com/wp-content/uploads/2018/04/1600x900-Mt-Bachelor-Oregon.jpg" style="border: 0" alt="Mt. Bachelor" id="drugi"></button>
+    </div>
+    <div class="mapCont">
+        <div id="map"><p></p></div>
+    </div>
+    <div id="tekst">
+    <h4>Cascade Volcanoes to szereg wulkanów w łuku wulkanicznym w zachodniej Ameryce Północnej , 
+        rozciągający się od południowo-zachodniej Kolumbii Brytyjskiej przez Waszyngton i Oregon do północnej 
+        Kalifornii , na odległość ponad 700 mil (1100 km). Chociaż bierze swoją nazwę od Cascade Range, 
+        termin ten jest raczej zgrupowaniem geologicznym niż geograficznym, a Wulkany Kaskadowe rozciągają 
+        się na północ do Gór Nadbrzeżnych , za rzeką Fraser, która jest północną granicą właściwego Pasma Kaskadowego.
+        Niektóre z głównych miast na całej długości łuku to Portland , Seattle i Vancouver , a populacja w regionie 
+        przekracza 10 milionów. Wszystkie mogą być potencjalnie dotknięte przez aktywność wulkaniczną i wielkie trzęsienia 
+        ziemi w strefie subdukcji wzdłuż łuku. Ponieważ populacja północno-zachodniego Pacyfiku gwałtownie rośnie, 
+        wulkany Cascade są jednymi z najniebezpieczniejszych ze względu na ich historię erupcji i potencjał przyszłych erupcji,
+         a także dlatego, że są one podszyte słabymi, hydrotermalnie zmienionymi skałami wulkanicznymi, które są podatne na awarie. 
+         Wulkany Kaskadowe są częścią Pacyficznego Pierścienia Ognia , pierścienia wulkanów i związanych z nim gór wokół 
+         Oceanu Spokojnego . W udokumentowanej historii kilka razy wybuchały wulkany Cascade. Dwa ostatnie to 
+         Lassen Peak w latach 1914-1921 oraz poważna erupcja Mount St. Helens w 1980 roku . Jest to również miejsce 
+         ostatniej dużej erupcji w Kanadzie około 2350 lat temu w masywie Mount Meager.
+    </h4>
+    <h4>
+        Erupcje odnotowane w latach teraźniejszości
+
+        1980 Erupcja Mount St. Helens 
+        Główny artykuł: erupcja Mount St. Helens w 1980 roku
+        Erupcja Mount St. Helens w 1980 roku była jedną z najdokładniej zbadanych erupcji wulkanicznych w 
+        łuku i jedną z najlepiej zbadanych w historii. Była to erupcja w stylu Pliniusza z VEI =5 i była 
+        najbardziej znacząca, jaka wystąpiła w 48 niższych stanach USA w zarejestrowanej historii. 
+        Trzęsienie ziemi o godzinie 8:32 w dniu 18 maja 1980 r. spowodowało osunięcie się całej osłabionej 
+        północnej ściany. Kolumna popiołu wzniosła się na 15 mil w głąb atmosfery i zdeponowała popiół w 
+        11 stanach USA. Erupcja zabiła 57 osób i tysiące zwierząt oraz spowodowała szkody o wartości 
+        ponad miliarda dolarów .
+        
+    </h4>
+    <h4>
+        1914-1917 Erupcje Lassen Peak 
+        Główny artykuł: Lassen Peak
+        22 maja 1915 r. wybuchowa erupcja na Lassen Peak zdewastowała pobliskie obszary i spuścił popiół 
+        wulkaniczny na odległość 200 mil (320 km) na wschód. [10] Ogromna kolumna popiołu wulkanicznego 
+        i gazu wzniosła się na ponad 9100 metrów w powietrze i była widoczna nawet z Eureka w 
+        Kalifornii , 150 mil (240 km) na zachód. Piroklastyczny strumień spłynął w dół zbocza 
+        wulkanu, niszcząc obszar o powierzchni 3 mil kwadratowych (7,8 km 2 ). Ta eksplozja była 
+        najpotężniejsza w serii erupcji w latach 1914-1917 na Lassen Peak.
+        
+    </h4>
+    </div>
+    <div id="stopka">
+        <br>
+        <br>
+        <h4>Informacje kontaktowe:
+            <br>
+            telefon: 663 482 332
+            <br>
+            e-mail: tmirowski@gmail.com
+            <br>
+            <span style="font-size: small"> Copyright &copy; Tomasz Mirowski, 2022; </span>
+        </h4>
+    </div>
+</body>
+</html>

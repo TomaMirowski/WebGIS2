@@ -1,0 +1,33 @@
+#tytul {
+    height:5vh;
+    text-align: center;
+}
+
+#drugi {
+    height:20vh;
+    width: 30vh;
+}
+
+#linki {
+    height:20vh;
+    text-align: center;
+    width: 100%;
+}
+
+#grafika {
+    height:90vh;
+    width: 100%;
+}
+
+#map {
+    height: 80vh;
+}
+
+#tekst {
+    height: 40vh;
+}
+
+#stopka {
+    height: 20vh;
+    text-align: center;
+}
